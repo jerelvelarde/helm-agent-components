@@ -1,0 +1,231 @@
+# Sources — Helm
+
+> Consolidated citations gathered and verified during the component research pass (industry products + official documentation). Product/feature sources are tied to a specific component example; additional references backed cluster-level claims.
+
+## Product & feature sources
+
+- [Agent features & capability surfacing — Glean](https://www.glean.com/prompt-library)
+- [Agent features & capability surfacing — Google Gemini (Gems)](https://www.computerworld.com/article/4054876/a-beginners-guide-to-google-gemini-gems.html)
+- [Agent features & capability surfacing — OpenAI ChatKit (AgentKit)](https://developers.openai.com/api/docs/guides/chatkit)
+- [Agent features & capability surfacing — OpenAI GPTs / ChatGPT](https://help.openai.com/en/articles/8554407-gpts-faq)
+- [Agent status & activity / traceability — Devin (Cognition) — Session UI / Devin 2.0](https://docs.devin.ai/release-notes/2025)
+- [Agent status & activity / traceability — GitHub Copilot — Agent Sessions view (VS Code)](https://github.blog/changelog/2025-11-13-manage-copilot-coding-agent-tasks-in-visual-studio-code/)
+- [Agent status & activity / traceability — Harvey (legal AI) — Agents](https://www.harvey.ai/blog/introducing-harvey-agents)
+- [Agent status & activity / traceability — Microsoft 365 Copilot — Researcher with Computer Use](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766)
+- [Approval prompt (yes/no) — ChatGPT agent (OpenAI)](https://openai.com/index/introducing-chatgpt-agent/)
+- [Approval prompt (yes/no) — Claude Code (Anthropic)](https://www.anthropic.com/engineering/claude-code-auto-mode)
+- [Artifacts — ChatGPT Canvas (OpenAI)](https://openai.com/index/introducing-canvas/)
+- [Artifacts — Cursor / Replit Agent / Devin (IDE-as-canvas)](https://www.cursor.com/)
+- [Canvas / workspace — ChatGPT Canvas (OpenAI)](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)
+- [Canvas / workspace — Replit Agent 4](https://blog.replit.com/whats-changed-agent3-to-agent4)
+- [Chat message (user & assistant bubbles) — ChatGPT (OpenAI)](https://community.openai.com/t/ui-update-makes-regenerating-responses-impossible/1254797)
+- [Chat message (user & assistant bubbles) — Claude (Anthropic)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+- [Chat message (user & assistant bubbles) — Perplexity](https://www.unusual.ai/blog/perplexity-platform-guide-design-for-citation-forward-answers)
+- [Deep research — ChatGPT Deep Research (OpenAI)](https://en.wikipedia.org/wiki/ChatGPT_Deep_Research)
+- [Deep research — Gemini Deep Research (Google)](https://gemini.google/overview/deep-research/)
+- [Deep research — Microsoft 365 Copilot — Researcher](https://www.microsoft.com/en-us/microsoft-365/blog/2025/06/02/researcher-and-analyst-are-now-generally-available-in-microsoft-365-copilot/)
+- [Deep research — Perplexity Deep Research / Research mode](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research)
+- [Image generation — Adobe Firefly](https://contentauthenticity.org/blog/meeting-the-moment-with-c2pa-and-firefly)
+- [Image generation — ChatGPT image generation (OpenAI, GPT Image)](https://openai.com/index/new-chatgpt-images-is-here/)
+- [Image generation — Google Gemini 'Nano Banana' (image)](https://gemini.google/overview/image-generation/)
+- [Inline generative UI components (LLM-rendered) — Microsoft Copilot (Apps SDK / declarative agents)](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-ui-widgets-guidelines)
+- [Inline generative UI components (LLM-rendered) — OpenAI ChatKit + Apps SDK](https://developers.openai.com/api/docs/guides/chatkit-widgets)
+- [Input box / composer — assistant-ui ComposerPrimitive](https://www.assistant-ui.com/docs/primitives/composer)
+- [Input box / composer — ChatGPT (OpenAI)](https://www.trupeer.ai/tutorials/how-to-enter-new-line-in-chatgpt-without-sending-prompt)
+- [Input box / composer — GitHub Copilot Chat](https://docs.github.com/en/copilot/reference/chat-cheat-sheet)
+- [Interrupts & gating — AG-UI protocol (CopilotKit)](https://docs.ag-ui.com/concepts/interrupts)
+- [Interrupts & gating — Claude Developer Platform (Anthropic tool use)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+- [Interrupts & gating — LangGraph / LangChain HITL middleware](https://docs.langchain.com/oss/python/langchain/human-in-the-loop)
+- [Main panel / full-page chat — assistant-ui](https://www.assistant-ui.com/docs/ui/primitives/Thread)
+- [Main panel / full-page chat — ChatGPT (OpenAI)](https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt)
+- [Main panel / full-page chat — OpenAI ChatKit](https://platform.openai.com/docs/guides/custom-chatkit)
+- [Main panel / full-page chat — Perplexity](https://www.perplexity.ai/hub/getting-started)
+- [Multi-step form / wizard prompt — Devin (Cognition) — Interactive Planning](https://cognition.ai/blog/introducing-devin-2-2)
+- [Multi-step form / wizard prompt — Replit Agent (Plan mode)](https://docs.replit.com/replitai/agent)
+- [Option selection prompt (single & multi-select) — ChatGPT Deep Research (OpenAI)](https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt)
+- [Option selection prompt (single & multi-select) — Conversational-UI quick replies (industry pattern)](https://www.lazarev.agency/articles/chatbot-ui-examples)
+- [Option selection prompt (single & multi-select) — Perplexity (Pro Search & Shopping)](https://www.shopify.com/blog/perplexity-shopping)
+- [Side panel / sidebar copilot — CopilotKit CopilotSidebar](https://docs.copilotkit.ai/reference/v2/components/CopilotSidebar)
+- [Side panel / sidebar copilot — Glean Assistant](https://www.glean.com/browser-extension)
+- [Side panel / sidebar copilot — Microsoft 365 Copilot (Word/Excel/PowerPoint)](https://www.windowslatest.com/2026/05/22/microsoft-admits-the-floating-copilot-button-in-word-excel-and-powerpoint-was-a-mistake-lets-you-hide-it-after-backlash/)
+- [Side panel / sidebar copilot — Notion AI](https://www.notion.com/help/guides/everything-you-can-do-with-notion-ai)
+- [Static inline components / tool-result UI — Claude (tool use surfaces) / GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat)
+- [Static inline components / tool-result UI — CopilotKit (tool rendering)](https://docs.copilotkit.ai/generative-ui/display)
+- [Static inline components / tool-result UI — Perplexity (Finance & answers)](https://www.perplexity.ai/finance)
+- [Sub-agents / multi-agent orchestration — Anthropic Claude (Research)](https://www.anthropic.com/engineering/multi-agent-research-system)
+- [Sub-agents / multi-agent orchestration — Cursor 3.0](https://cursor.com/changelog/3-0)
+- [Sub-agents / multi-agent orchestration — Google A2A protocol](https://a2a-protocol.org/latest/specification/)
+- [Sub-agents / multi-agent orchestration — Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-365/blog/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchestration-and-more-from-microsoft-build-2025/)
+- [Suggestions & command palette — Cursor](https://cursor.com/changelog/1-6)
+- [Suggestions & command palette — Notion AI](https://zapier.com/blog/how-to-use-notion-ai/)
+- [Tabs / mode switching — ChatGPT model picker (GPT-5)](https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/)
+- [Tabs / mode switching — GitHub Copilot in VS Code](https://github.blog/ai-and-ml/github-copilot/copilot-ask-edit-and-agent-modes-what-they-do-and-when-to-use-them/)
+- [Thinking / reasoning display — ChatGPT / OpenAI (GPT-5 / o-series)](https://openai.com/index/introducing-gpt-5/)
+- [Thinking / reasoning display — Claude (Anthropic) — claude.ai + Messages API](https://platform.claude.com/docs/en/build-with-claude/extended-thinking)
+- [Thinking / reasoning display — Perplexity Pro Search](https://www.langchain.com/breakoutagents/perplexity)
+- [Threads / conversation history — assistant-ui](https://www.assistant-ui.com/docs/ui/thread-list)
+- [Threads / conversation history — ChatGPT (OpenAI)](https://help.openai.com/en/articles/10056348-how-do-i-search-my-chat-history-in-chatgpt)
+- [Threads / conversation history — Claude (Anthropic)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
+- [Threads / conversation history — Perplexity](https://www.perplexity.ai/help-center/en/articles/10354775-technical-capabilities-of-threads)
+- [Tool call rendering — assistant-ui](https://www.assistant-ui.com/docs/guides/tool-ui)
+- [Tool call rendering — Cursor (Agent)](https://cursor.com/docs/agent/tools/terminal)
+- [Tool call rendering — GitHub Copilot agent mode (VS Code)](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
+- [Video — Microsoft Copilot Vision (Windows)](https://blogs.windows.com/windows-insider/2025/07/15/copilot-on-windows-vision-desktop-share-begins-rolling-out-to-windows-insiders/)
+- [Video — OpenAI Sora (text-to-video)](https://openai.com/index/sora-2/)
+- [Video — Tavus (Conversational Video Interface)](https://docs.tavus.io/sections/conversational-video-interface/overview-cvi)
+- [Voice input / dictation — ChatGPT (OpenAI)](https://help.openai.com/en/articles/9617024-using-voice-mode-on-chatgpt)
+- [Voice input / dictation — GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/voice-input)
+- [Voice input / dictation — superwhisper (macOS)](https://superwhisper.com/)
+- [Voice mode (realtime voice-in / voice-out) — ChatGPT Advanced Voice (OpenAI)](https://techcrunch.com/2025/11/25/chatgpts-voice-mode-is-no-longer-a-separate-interface/)
+- [Voice mode (realtime voice-in / voice-out) — Gemini Live (Google)](https://support.google.com/gemini/answer/15274899?hl=en&co=GENIE.Platform%3DAndroid)
+- [Voice mode (realtime voice-in / voice-out) — OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime-vad)
+- [Voice mode (realtime voice-in / voice-out) — Perplexity Voice Assistant (iOS)](https://theaitrack.com/perplexity-ios-voice-assistant-2025/)
+- [Web research / search — ChatGPT Search](https://help.openai.com/en/articles/9237897-chatgpt-search)
+- [Web research / search — Google Gemini (Grounding with Google Search)](https://ai.google.dev/gemini-api/docs/google-search)
+- [Web research / search — Perplexity](https://ziptie.dev/blog/how-perplexity-ai-answers-work/)
+
+## Additional references
+
+- https://9to5google.com/2025/12/16/gemini-deep-research-images/
+- https://a11y-guidelines.orange.com/en/articles/chatbot/
+- https://ai.google.dev/gemini-api/docs/image-generation
+- https://blog.google/products/gemini/google-gemini-deep-research/
+- https://blogs.windows.com/windows-insider/2025/10/28/copilot-on-windows-vision-with-text-input-begins-rolling-out-to-windows-insiders/
+- https://chatgpt.com/features/voice-with-video/
+- https://cloudscape.design/patterns/resource-management/delete/delete-with-additional-confirmation/
+- https://code.claude.com/docs/en/permissions
+- https://code.visualstudio.com/docs/agent-customization/prompt-files
+- https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+- https://community.openai.com/t/bring-gpts-into-any-conversation-in-chatgpt/608707
+- https://community.openai.com/t/chatgpt-can-now-reference-all-past-conversations-april-10-2025/1229453
+- https://cursor.com/changelog/1-7
+- https://cursor.com/changelog/2-0
+- https://cursor.com/docs/agent/overview
+- https://devblogs.microsoft.com/visualstudio/copilot-chat-slash-commands-and-context-variables/
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role
+- https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/
+- https://developers.openai.com/api/docs/guides/chatkit-actions
+- https://developers.openai.com/api/docs/guides/realtime-vad
+- https://developers.openai.com/api/reference/resources/realtime/server-events
+- https://docs.ag-ui.com/concepts/architecture
+- https://docs.ag-ui.com/concepts/events
+- https://docs.ag-ui.com/concepts/messages
+- https://docs.ag-ui.com/concepts/reasoning
+- https://docs.ag-ui.com/concepts/serialization
+- https://docs.ag-ui.com/concepts/tools
+- https://docs.ag-ui.com/introduction
+- https://docs.ag-ui.com/sdk/js/client/subscriber
+- https://docs.ag-ui.com/sdk/js/core/events
+- https://docs.claude.com/en/docs/build-with-claude/extended-thinking
+- https://docs.copilotkit.ai/
+- https://docs.copilotkit.ai/copilot-suggestions
+- https://docs.copilotkit.ai/generative-ui/a2ui
+- https://docs.copilotkit.ai/generative-ui/tool-rendering
+- https://docs.copilotkit.ai/headless
+- https://docs.copilotkit.ai/integrations/crewai-flows/shared-state
+- https://docs.copilotkit.ai/integrations/langgraph/custom-look-and-feel/slots
+- https://docs.copilotkit.ai/integrations/langgraph/human-in-the-loop/interrupt-flow
+- https://docs.copilotkit.ai/integrations/langgraph/programmatic-control
+- https://docs.copilotkit.ai/learn/a2a-protocol
+- https://docs.copilotkit.ai/learn/agentic-protocols
+- https://docs.copilotkit.ai/learn/generative-ui
+- https://docs.copilotkit.ai/learn/threads
+- https://docs.copilotkit.ai/learn/tutorials/multi-conversation-chat
+- https://docs.copilotkit.ai/learn/whats-new/langgraph-deep-agents
+- https://docs.copilotkit.ai/learn/whats-new/v1-50
+- https://docs.copilotkit.ai/reference/v1/components/chat/CopilotChat
+- https://docs.copilotkit.ai/reference/v1/components/chat/CopilotPopup
+- https://docs.copilotkit.ai/reference/v1/hooks/useCoAgent
+- https://docs.copilotkit.ai/reference/v1/hooks/useCoAgentStateRender
+- https://docs.copilotkit.ai/reference/v1/hooks/useCopilotAction
+- https://docs.copilotkit.ai/reference/v1/hooks/useCopilotChatHeadless_c
+- https://docs.copilotkit.ai/reference/v1/hooks/useCopilotChatSuggestions
+- https://docs.copilotkit.ai/reference/v1/hooks/useCopilotReadable
+- https://docs.copilotkit.ai/reference/v1/hooks/useFrontendTool
+- https://docs.copilotkit.ai/reference/v1/hooks/useHumanInTheLoop
+- https://docs.copilotkit.ai/reference/v1/hooks/useLangGraphInterrupt
+- https://docs.copilotkit.ai/reference/v1/sdk/python/LangGraph
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChat
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChatAssistantMessage
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChatInput
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChatMessageView
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChatUserMessage
+- https://docs.copilotkit.ai/reference/v2/components/CopilotChatView
+- https://docs.copilotkit.ai/reference/v2/components/CopilotPopup
+- https://docs.copilotkit.ai/reference/v2/hooks/useAgent
+- https://docs.copilotkit.ai/reference/v2/hooks/useAgentContext
+- https://docs.copilotkit.ai/reference/v2/hooks/useComponent
+- https://docs.copilotkit.ai/reference/v2/hooks/useConfigureSuggestions
+- https://docs.copilotkit.ai/reference/v2/hooks/useDefaultRenderTool
+- https://docs.copilotkit.ai/reference/v2/hooks/useFrontendTool
+- https://docs.copilotkit.ai/reference/v2/hooks/useHumanInTheLoop
+- https://docs.copilotkit.ai/reference/v2/hooks/useInterrupt
+- https://docs.copilotkit.ai/reference/v2/hooks/useRenderTool
+- https://docs.copilotkit.ai/reference/v2/hooks/useRenderToolCall
+- https://docs.copilotkit.ai/reference/v2/hooks/useSuggestions
+- https://docs.copilotkit.ai/reference/v2/hooks/useThreads
+- https://docs.copilotkit.ai/threads
+- https://docs.glean.com/user-guide/advanced/keyboard-shortcuts
+- https://docs.glean.com/user-guide/apps/extension-sidebar
+- https://docs.perplexity.ai/docs/cookbook/articles/streaming-citations/README
+- https://docs.replit.com/core-concepts/workspace
+- https://docs.replit.com/replitai/checkpoints-and-rollbacks
+- https://en.wikipedia.org/wiki/GPT_Image
+- https://gemini.google/overview/gemini-live/
+- https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input/
+- https://github.com/CopilotKit/CopilotKit
+- https://github.com/CopilotKit/CopilotKit/issues/1820
+- https://github.com/CopilotKit/CopilotKit/issues/2013
+- https://help.openai.com/en/articles/11752874-chatgpt-agent
+- https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation
+- https://help.openai.com/en/articles/8809935-how-to-delete-and-archive-chats-in-chatgpt
+- https://learn.microsoft.com/en-us/microsoft-copilot-studio/adaptive-cards-overview
+- https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-starter-prompts
+- https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode
+- https://openai.com/index/advancing-content-provenance/
+- https://openai.com/index/introducing-agentkit/
+- https://openai.com/index/introducing-o3-and-o4-mini/
+- https://openai.com/index/introducing-operator/
+- https://openai.com/index/thinking-with-images/
+- https://openai.github.io/chatkit-js/api/openai/chatkit/namespaces/widgets/type-aliases/widgetroot/
+- https://openai.github.io/chatkit-js/api/openai/chatkit/type-aliases/startscreenoption/
+- https://platform.claude.com/docs/en/build-with-claude/citations
+- https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons
+- https://platform.openai.com/docs/guides/realtime-conversations
+- https://platform.openai.com/docs/guides/reasoning
+- https://replit.com/agent4
+- https://simonwillison.net/2025/Jun/25/ai-powered-apps-with-claude/
+- https://support.google.com/gemini/answer/15235907
+- https://support.microsoft.com/en-us/topic/using-copilot-vision-with-microsoft-copilot-3c67686f-fa97-40f6-8a3e-0e45265d425f
+- https://techcommunity.microsoft.com/blog/microsoft365insiderblog/shaping-copilot-across-word-excel-and-powerpoint/4521706
+- https://the-decoder.com/chatgpt-users-can-now-toggle-auto-fast-and-thinking-modes-for-more-control-over-gpt-5/
+- https://the-decoder.com/new-cursor-3-ditches-the-classic-ide-layout-for-an-agent-first-interface-built-around-parallel-ai-fleets/
+- https://webaim.org/standards/wcag/checklist
+- https://www.anthropic.com/news/visible-extended-thinking
+- https://www.assistant-ui.com/docs/api-reference/context-providers/assistant-runtime-provider
+- https://www.assistant-ui.com/docs/api-reference/primitives/ThreadList
+- https://www.assistant-ui.com/docs/copilots/make-assistant-tool-ui
+- https://www.assistant-ui.com/docs/guides/branching
+- https://www.assistant-ui.com/docs/runtimes/custom/custom-thread-list
+- https://www.copilotkit.ai/blog/master-the-17-ag-ui-event-types-for-building-agents-the-right-way
+- https://www.copilotkit.ai/examples/coagents-research-canvas
+- https://www.ghacks.net/2026/01/19/chatgpt-now-searches-your-full-chat-history-for-answers/
+- https://www.glean.com/blog/glean-desktop-nov-drop-2025
+- https://www.glean.com/blog/glean-slack-ai-app-container
+- https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt
+- https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents
+- https://www.macrumors.com/2025/04/24/perplexity-voice-assistant-ios-app/
+- https://www.marktechpost.com/2026/02/18/tavus-launches-phoenix-4-a-gaussian-diffusion-model-bringing-real-time-emotional-intelligence-and-sub-600ms-latency-to-generative-video-ai/
+- https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/multi-agent-orchestration-maker-controls-and-more-microsoft-copilot-studio-announcements-at-microsoft-build-2025/
+- https://www.neowin.net/news/openai-upgrades-chatgpt-deep-research-with-gpt-52-and-real-time-controls/
+- https://www.nngroup.com/articles/careful-prompts/
+- https://www.nngroup.com/articles/confirmation-dialog/
+- https://www.notion.com/help/custom-agents
+- https://www.perplexity.ai/changelog/what-we-shipped-july-18th
+- https://www.perplexity.ai/library
+- https://www.producthunt.com/products/superwhisper
+- https://www.sarasoueidan.com/blog/accessible-notifications-with-aria-live-regions-part-1/
+- https://www.w3.org/WAI/ARIA/apg/patterns/combobox/
+- https://www.yahoo.com/tech/anthropic-brings-artifacts-split-screen-153447742.html
+- https://x.com/claudeai/status/2046328619249684989
